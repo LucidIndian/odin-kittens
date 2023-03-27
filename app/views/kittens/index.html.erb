@@ -7,6 +7,8 @@
     <%= render kitten %>
     <p>
       <%= link_to "Show this kitten", kitten %>
+      <%= button_to "Delete this kitten", kitten, method: :delete %>
+
     </p>
   <% end %>
 </div>
